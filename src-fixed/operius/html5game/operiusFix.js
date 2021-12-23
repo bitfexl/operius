@@ -1,1 +1,1 @@
-document.getElementsByTagName("body")[0].onclick = function(e) { e.preventDefault(); e.stopPropagation(); alert(1); }
+document.getElementsByTagName("body")[0].onclick = function(e) {  }
