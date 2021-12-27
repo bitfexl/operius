@@ -1,1 +1,7 @@
-document.getElementsByTagName("body")[0].onclick = function(e) {  }
+/* Enable Audio */
+let enableAudio = document.getElementById("enableAudio");
+let body = document.getElementsByTagName("body")[0];
+
+body.onclick = function () {
+  body.removeChild(enableAudio);
+};
